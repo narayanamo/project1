@@ -1,0 +1,24 @@
+
+    <h1>southern food</h1>
+    <div ng-repeat = "item in itemsData">
+        
+        Name: <b>{{item.Name}}<b></br>
+      Price: {{item.Price | currency}}</br>
+
+
+<div ng-init="quantity=1">
+    <h3> cost </h3>
+    quantity: <input type="number" ng-model="quantity">    
+    <p>total price of  {{item.Name}}:
+     {{quantity * item.Price |currency}}</p>
+
+    
+</div>
+</div>
+              
+        
+    
+
+
+
+    

@@ -1,0 +1,12 @@
+<h2>Andhra food</h2>
+Filter: <input type="text" ng-model="foodFilter"/>
+<div ng-init="itemsData">
+    <ol>
+<li ng-repeat="item in itemsData | filter:foodFilter | orderBy:'name'">
+    {{item.name | uppercase}} - {{item.price | currency}}</li>
+    </ol>
+</div></br>
+
+
+
+        

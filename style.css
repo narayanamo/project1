@@ -1,0 +1,16 @@
+
+.container {
+    text-align:center;
+    background-color:beige;
+    width:100%;
+}
+
+.view-container {
+  text-align: center;
+}
+body {
+    background-color: burlywood;
+}
+form {
+    margin-right:100px;
+}
